@@ -1,0 +1,44 @@
+I:\Programming\C#\db_pic\db_pic\bin\Debug\db_pic.exe
+I:\Programming\C#\db_pic\db_pic\bin\Debug\MySql.Data.dll
+I:\Programming\C#\db_pic\db_pic\bin\Debug\Interop.AcroPDFLib.dll
+I:\Programming\C#\db_pic\db_pic\bin\Debug\AxInterop.AcroPDFLib.dll
+I:\Programming\C#\db_pic\db_pic\bin\Debug\db_pic.exe.config
+I:\Programming\C#\db_pic\db_pic\bin\Debug\db_pic.exe.manifest
+I:\Programming\C#\db_pic\db_pic\bin\Debug\db_pic.application
+I:\Programming\C#\db_pic\db_pic\obj\Debug\Interop.AcroPDFLib.dll
+I:\Programming\C#\db_pic\db_pic\obj\Debug\AxInterop.AcroPDFLib.dll
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.csproj.ResolveComReference.cache
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.about_company.resources
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.about_front.resources
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.about_us.resources
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.Admin.resources
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.attendance.resources
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.channels.resources
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.Company_details.resources
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.Create_Employee.resources
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.Employer_List.resources
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.feedback_customer_page.resources
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.First_Page.resources
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.Form1.resources
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.MAIN_main_page.resources
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.Payement.resources
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.pay_form.resources
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.Properties.Resources.resources
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.Update_Form.resources
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.csproj.GenerateResource.Cache
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.exe.manifest
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.application
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.exe
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.pdb
+I:\Programming\C#\db_pic\db_pic\bin\Debug\db_pic.pdb
+I:\Programming\C#\db_pic\db_pic\bin\Debug\crrow.exe
+I:\Programming\C#\db_pic\db_pic\bin\Debug\crrow.pdb
+I:\Programming\C#\db_pic\db_pic\obj\Debug\db_pic.csprojResolveAssemblyReference.cache
+I:\Programming\C#\db_pic\db_pic\bin\Debug\hisab.exe
+I:\Programming\C#\db_pic\db_pic\bin\Debug\hisab.pdb
+I:\projects\My Submitted Projects\C#\Employee Managemenet (4th Semester)\db_pic\db_pic\bin\Debug\db_pic.exe.config
+I:\projects\My Submitted Projects\C#\Employee Managemenet (4th Semester)\db_pic\db_pic\obj\Debug\Interop.AcroPDFLib.dll
+I:\projects\My Submitted Projects\C#\Employee Managemenet (4th Semester)\db_pic\db_pic\obj\Debug\AxInterop.AcroPDFLib.dll
+I:\projects\My Submitted Projects\C#\Employee Managemenet (4th Semester)\db_pic\db_pic\obj\Debug\db_pic.csproj.ResolveComReference.cache
+I:\projects\My Submitted Projects\C#\Employee Managemenet (4th Semester)\db_pic\db_pic\obj\Debug\db_pic.exe
+I:\projects\My Submitted Projects\C#\Employee Managemenet (4th Semester)\db_pic\db_pic\obj\Debug\db_pic.pdb

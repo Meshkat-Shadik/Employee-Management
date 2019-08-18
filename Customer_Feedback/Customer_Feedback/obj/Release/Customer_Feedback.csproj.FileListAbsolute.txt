@@ -1,0 +1,9 @@
+I:\Programming\C#\Customer_Feedback\Customer_Feedback\bin\Release\Customer_Feedback.exe.config
+I:\Programming\C#\Customer_Feedback\Customer_Feedback\bin\Release\Customer_Feedback.exe
+I:\Programming\C#\Customer_Feedback\Customer_Feedback\bin\Release\Customer_Feedback.pdb
+I:\Programming\C#\Customer_Feedback\Customer_Feedback\bin\Release\MySql.Data.dll
+I:\Programming\C#\Customer_Feedback\Customer_Feedback\obj\Release\Customer_Feedback.Form1.resources
+I:\Programming\C#\Customer_Feedback\Customer_Feedback\obj\Release\Customer_Feedback.Properties.Resources.resources
+I:\Programming\C#\Customer_Feedback\Customer_Feedback\obj\Release\Customer_Feedback.csproj.GenerateResource.Cache
+I:\Programming\C#\Customer_Feedback\Customer_Feedback\obj\Release\Customer_Feedback.exe
+I:\Programming\C#\Customer_Feedback\Customer_Feedback\obj\Release\Customer_Feedback.pdb

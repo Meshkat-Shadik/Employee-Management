@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7FD67322-A717-461F-B8AE-FBED1DAB30BE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>db_pic</RootNamespace>
+    <AssemblyName>db_pic</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>I:\Programming\C#\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>3341EC0720D6B4584BD22B8DE83C9D80E096EF91</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>db_pic_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="crrow">
+      <HintPath>..\..\crrow\crrow\bin\Debug\crrow.exe</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="hisab">
+      <HintPath>..\..\hisab\hisab\bin\Debug\hisab.exe</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about_company.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="about_company.Designer.cs">
+      <DependentUpon>about_company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="about_front.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="about_front.Designer.cs">
+      <DependentUpon>about_front.cs</DependentUpon>
+    </Compile>
+    <Compile Include="about_us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="about_us.Designer.cs">
+      <DependentUpon>about_us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="attendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="attendance.Designer.cs">
+      <DependentUpon>attendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="channels.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="channels.Designer.cs">
+      <DependentUpon>channels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company_details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company_details.Designer.cs">
+      <DependentUpon>Company_details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Create_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create_Employee.Designer.cs">
+      <DependentUpon>Create_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employer_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employer_List.Designer.cs">
+      <DependentUpon>Employer_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="feedback_customer_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="feedback_customer_page.Designer.cs">
+      <DependentUpon>feedback_customer_page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="First_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="First_Page.Designer.cs">
+      <DependentUpon>First_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAIN_main_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN_main_page.Designer.cs">
+      <DependentUpon>MAIN_main_page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payement.Designer.cs">
+      <DependentUpon>Payement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pay_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pay_form.Designer.cs">
+      <DependentUpon>pay_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Update_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Form.Designer.cs">
+      <DependentUpon>Update_Form.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="about_company.resx">
+      <DependentUpon>about_company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="about_front.resx">
+      <DependentUpon>about_front.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="about_us.resx">
+      <DependentUpon>about_us.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="attendance.resx">
+      <DependentUpon>attendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="channels.resx">
+      <DependentUpon>channels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company_details.resx">
+      <DependentUpon>Company_details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_Employee.resx">
+      <DependentUpon>Create_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employer_List.resx">
+      <DependentUpon>Employer_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="feedback_customer_page.resx">
+      <DependentUpon>feedback_customer_page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="First_Page.resx">
+      <DependentUpon>First_Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAIN_main_page.resx">
+      <DependentUpon>MAIN_main_page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payement.resx">
+      <DependentUpon>Payement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pay_form.resx">
+      <DependentUpon>pay_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Update_Form.resx">
+      <DependentUpon>Update_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="db_pic_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
